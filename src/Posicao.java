@@ -21,6 +21,7 @@ public class Posicao {
                 "Tropa=" + tropa;
     }
     //endregion
+    //a
 
 }
 
