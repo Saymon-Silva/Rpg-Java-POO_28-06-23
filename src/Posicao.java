@@ -1,7 +1,13 @@
 public class Posicao {
 
     private Tropa tropa;
+//    private String olhoNoOlho;//serve pra colocar nas posicoes vazias da matriz.
 
+    public Posicao(String olhoNoOlho){
+
+    }
+
+    //region(get/setter)
     public Tropa getTropa() {
         return tropa;
     }
@@ -14,5 +20,7 @@ public class Posicao {
         return  "Posicao " +
                 "Tropa=" + tropa;
     }
+    //endregion
+
 }
 
